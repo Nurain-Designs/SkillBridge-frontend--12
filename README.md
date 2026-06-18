@@ -24,14 +24,6 @@ Developed during an internship at **MJ Smart Solutions**, SkillBridge combines a
 - **Animations:** Framer Motion
 - **Components:** Radix UI / shadcn/ui
 
-### Backend & AI
-- **Language:** Python 3.9+
-- **Interface:** Streamlit / API Server
-- **LLM Orchestration:** LangChain
-- **Local AI:** Ollama (running Llama 3.2)
-- **NLP:** spaCy (`en_core_web_sm`)
-- **Vector Database:** FAISS
-- **PDF Processing:** PyPDF2
 
 ## 🚀 Getting Started
 
@@ -44,3 +36,9 @@ Developed during an internship at **MJ Smart Solutions**, SkillBridge combines a
 Install Ollama from [ollama.com](https://ollama.com) and pull the required model:
 ```bash
 ollama run llama3.2
+
+Local link:  http://localhost:5173/
+
+
+
+created by Hafsa 
