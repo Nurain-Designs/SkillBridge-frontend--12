@@ -1,0 +1,95 @@
+Skill,Category
+Python,Programming
+JavaScript,Programming
+TypeScript,Programming
+Java,Programming
+C++,Programming
+C#,Programming
+Go,Programming
+Rust,Programming
+Ruby,Programming
+PHP,Programming
+Swift,Programming
+Kotlin,Programming
+R,Programming
+Scala,Programming
+React,Web
+Angular,Web
+Vue.js,Web
+Node.js,Web
+Django,Web
+Flask,Web
+Spring Boot,Web
+FastAPI,Web
+HTML,Web
+CSS,Web
+Tailwind CSS,Web
+Bootstrap,Web
+GraphQL,Web
+REST APIs,Web
+Machine Learning,Data
+Deep Learning,Data
+Data Analysis,Data
+SQL,Data
+Pandas,Data
+NumPy,Data
+TensorFlow,Data
+PyTorch,Data
+Scikit-Learn,Data
+Data Visualization,Data
+PowerBI,Data
+Tableau,Data
+Apache Spark,Data
+Hadoop,Data
+AWS,Cloud
+Azure,Cloud
+Google Cloud,Cloud
+Docker,Cloud
+Kubernetes,Cloud
+CI/CD,Cloud
+Jenkins,Cloud
+Terraform,Cloud
+Ansible,Cloud
+Linux,Cloud
+Bash,Cloud
+Nginx,Cloud
+Microservices,Cloud
+Serverless,Cloud
+Communication,Soft
+Leadership,Soft
+Problem Solving,Soft
+Agile,Soft
+Scrum,Soft
+Teamwork,Soft
+Time Management,Soft
+Project Management,Soft
+Critical Thinking,Soft
+Adaptability,Soft
+React Development,Specialized
+Angular Development,Specialized
+Vue.js Development,Specialized
+Node.js Development,Specialized
+Django Development,Specialized
+Flask Development,Specialized
+Spring Boot Development,Specialized
+FastAPI Development,Specialized
+HTML Development,Specialized
+CSS Development,Specialized
+Tailwind CSS Development,Specialized
+Bootstrap Development,Specialized
+GraphQL Development,Specialized
+REST APIs Development,Specialized
+Machine Learning Engineering,Specialized
+Deep Learning Engineering,Specialized
+Data Analysis Engineering,Specialized
+SQL Engineering,Specialized
+Pandas Engineering,Specialized
+NumPy Engineering,Specialized
+TensorFlow Engineering,Specialized
+PyTorch Engineering,Specialized
+Scikit-Learn Engineering,Specialized
+Data Visualization Engineering,Specialized
+PowerBI Engineering,Specialized
+Tableau Engineering,Specialized
+Apache Spark Engineering,Specialized
+Hadoop Engineering,Specialized

@@ -1,0 +1,135 @@
+{"label":"SKILL","pattern":[{"LOWER":"python"}]}
+{"label":"SKILL","pattern":[{"LOWER":"javascript"}]}
+{"label":"SKILL","pattern":[{"LOWER":"typescript"}]}
+{"label":"SKILL","pattern":[{"LOWER":"java"}]}
+{"label":"SKILL","pattern":[{"LOWER":"c++"}]}
+{"label":"SKILL","pattern":[{"LOWER":"c#"}]}
+{"label":"SKILL","pattern":[{"LOWER":"go"}]}
+{"label":"SKILL","pattern":[{"LOWER":"rust"}]}
+{"label":"SKILL","pattern":[{"LOWER":"ruby"}]}
+{"label":"SKILL","pattern":[{"LOWER":"php"}]}
+{"label":"SKILL","pattern":[{"LOWER":"swift"}]}
+{"label":"SKILL","pattern":[{"LOWER":"kotlin"}]}
+{"label":"SKILL","pattern":[{"LOWER":"r"}]}
+{"label":"SKILL","pattern":[{"LOWER":"scala"}]}
+{"label":"SKILL","pattern":[{"LOWER":"react"}]}
+{"label":"SKILL","pattern":[{"LOWER":"angular"}]}
+{"label":"SKILL","pattern":[{"LOWER":"vue.js"}]}
+{"label":"SKILL","pattern":[{"LOWER":"node.js"}]}
+{"label":"SKILL","pattern":[{"LOWER":"django"}]}
+{"label":"SKILL","pattern":[{"LOWER":"flask"}]}
+{"label":"SKILL","pattern":[{"LOWER":"spring boot"}]}
+{"label":"SKILL","pattern":[{"LOWER":"spring"},{"LOWER":"boot"}]}
+{"label":"SKILL","pattern":[{"LOWER":"fastapi"}]}
+{"label":"SKILL","pattern":[{"LOWER":"html"}]}
+{"label":"SKILL","pattern":[{"LOWER":"css"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tailwind css"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tailwind"},{"LOWER":"css"}]}
+{"label":"SKILL","pattern":[{"LOWER":"bootstrap"}]}
+{"label":"SKILL","pattern":[{"LOWER":"graphql"}]}
+{"label":"SKILL","pattern":[{"LOWER":"rest apis"}]}
+{"label":"SKILL","pattern":[{"LOWER":"rest"},{"LOWER":"apis"}]}
+{"label":"SKILL","pattern":[{"LOWER":"machine learning"}]}
+{"label":"SKILL","pattern":[{"LOWER":"machine"},{"LOWER":"learning"}]}
+{"label":"SKILL","pattern":[{"LOWER":"deep learning"}]}
+{"label":"SKILL","pattern":[{"LOWER":"deep"},{"LOWER":"learning"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data analysis"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data"},{"LOWER":"analysis"}]}
+{"label":"SKILL","pattern":[{"LOWER":"sql"}]}
+{"label":"SKILL","pattern":[{"LOWER":"pandas"}]}
+{"label":"SKILL","pattern":[{"LOWER":"numpy"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tensorflow"}]}
+{"label":"SKILL","pattern":[{"LOWER":"pytorch"}]}
+{"label":"SKILL","pattern":[{"LOWER":"scikit-learn"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data visualization"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data"},{"LOWER":"visualization"}]}
+{"label":"SKILL","pattern":[{"LOWER":"powerbi"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tableau"}]}
+{"label":"SKILL","pattern":[{"LOWER":"apache spark"}]}
+{"label":"SKILL","pattern":[{"LOWER":"apache"},{"LOWER":"spark"}]}
+{"label":"SKILL","pattern":[{"LOWER":"hadoop"}]}
+{"label":"SKILL","pattern":[{"LOWER":"aws"}]}
+{"label":"SKILL","pattern":[{"LOWER":"azure"}]}
+{"label":"SKILL","pattern":[{"LOWER":"google cloud"}]}
+{"label":"SKILL","pattern":[{"LOWER":"google"},{"LOWER":"cloud"}]}
+{"label":"SKILL","pattern":[{"LOWER":"docker"}]}
+{"label":"SKILL","pattern":[{"LOWER":"kubernetes"}]}
+{"label":"SKILL","pattern":[{"LOWER":"ci/cd"}]}
+{"label":"SKILL","pattern":[{"LOWER":"jenkins"}]}
+{"label":"SKILL","pattern":[{"LOWER":"terraform"}]}
+{"label":"SKILL","pattern":[{"LOWER":"ansible"}]}
+{"label":"SKILL","pattern":[{"LOWER":"linux"}]}
+{"label":"SKILL","pattern":[{"LOWER":"bash"}]}
+{"label":"SKILL","pattern":[{"LOWER":"nginx"}]}
+{"label":"SKILL","pattern":[{"LOWER":"microservices"}]}
+{"label":"SKILL","pattern":[{"LOWER":"serverless"}]}
+{"label":"SKILL","pattern":[{"LOWER":"communication"}]}
+{"label":"SKILL","pattern":[{"LOWER":"leadership"}]}
+{"label":"SKILL","pattern":[{"LOWER":"problem solving"}]}
+{"label":"SKILL","pattern":[{"LOWER":"problem"},{"LOWER":"solving"}]}
+{"label":"SKILL","pattern":[{"LOWER":"agile"}]}
+{"label":"SKILL","pattern":[{"LOWER":"scrum"}]}
+{"label":"SKILL","pattern":[{"LOWER":"teamwork"}]}
+{"label":"SKILL","pattern":[{"LOWER":"time management"}]}
+{"label":"SKILL","pattern":[{"LOWER":"time"},{"LOWER":"management"}]}
+{"label":"SKILL","pattern":[{"LOWER":"project management"}]}
+{"label":"SKILL","pattern":[{"LOWER":"project"},{"LOWER":"management"}]}
+{"label":"SKILL","pattern":[{"LOWER":"critical thinking"}]}
+{"label":"SKILL","pattern":[{"LOWER":"critical"},{"LOWER":"thinking"}]}
+{"label":"SKILL","pattern":[{"LOWER":"adaptability"}]}
+{"label":"SKILL","pattern":[{"LOWER":"react development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"react"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"angular development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"angular"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"vue.js development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"vue.js"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"node.js development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"node.js"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"django development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"django"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"flask development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"flask"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"spring boot development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"spring"},{"LOWER":"boot"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"fastapi development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"fastapi"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"html development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"html"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"css development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"css"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tailwind css development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tailwind"},{"LOWER":"css"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"bootstrap development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"bootstrap"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"graphql development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"graphql"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"rest apis development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"rest"},{"LOWER":"apis"},{"LOWER":"development"}]}
+{"label":"SKILL","pattern":[{"LOWER":"machine learning engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"machine"},{"LOWER":"learning"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"deep learning engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"deep"},{"LOWER":"learning"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data analysis engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data"},{"LOWER":"analysis"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"sql engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"sql"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"pandas engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"pandas"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"numpy engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"numpy"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tensorflow engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tensorflow"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"pytorch engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"pytorch"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"scikit-learn engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"scikit-learn"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data visualization engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"data"},{"LOWER":"visualization"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"powerbi engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"powerbi"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tableau engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"tableau"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"apache spark engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"apache"},{"LOWER":"spark"},{"LOWER":"engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"hadoop engineering"}]}
+{"label":"SKILL","pattern":[{"LOWER":"hadoop"},{"LOWER":"engineering"}]}
