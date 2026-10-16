@@ -3,6 +3,7 @@ import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from
 import { Mail, Lock, Chrome, ArrowRight, Sparkles, Play, Pause, UserPlus, LogIn, Loader2, X, Check } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import AnimatedBackground from '../components/AnimatedBackground';
+import { BASE, DEMO_MODE } from '../demo';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -287,6 +288,21 @@ const LoginPage = () => {
               </button>
             </form>
 
+            {DEMO_MODE && (
+              <div className="mt-6 rounded-2xl border border-blue-500/30 bg-blue-500/10 p-4 text-center">
+                <p className="text-sm text-slate-300">
+                  This is a public demo. Sign-in isn’t real, and no account is created.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => navigate('/dashboard')}
+                  className="mt-3 inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-blue-500"
+                >
+                  Explore the demo
+                </button>
+              </div>
+            )}
+
             <p className="mt-8 text-center text-slate-400">
               {isSignUp ? 'Already have an account?' : "Don't have an account?"}{' '}
               <button 
@@ -323,7 +339,7 @@ const LoginPage = () => {
             </div>
 
             <motion.img 
-              src="/ai-career_advisor.png" 
+              src={`${BASE}ai-career_advisor.png`} 
               alt="AI Career Advisor" 
               className="w-full h-auto drop-shadow-[0_30px_60px_rgba(59,130,246,0.4)] rounded-3xl object-cover border-4 border-slate-800/50 cursor-grab active:cursor-grabbing relative z-20"
               drag

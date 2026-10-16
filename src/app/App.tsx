@@ -10,6 +10,7 @@ import Roadmap from './pages/Roadmap';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
 import SkillAnalysis from './pages/SkillAnalysis';
+import { BASE } from './demo';
 
 // Page Transition Wrapper
 const PageTransition = ({ children }: { children: ReactNode }) => (
@@ -108,7 +109,7 @@ const AppRoutes = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={BASE}>
       <AppRoutes />
     </BrowserRouter>
   );

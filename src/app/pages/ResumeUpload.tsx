@@ -11,6 +11,15 @@ import {
 import { motion } from 'motion/react';
 import { useNavigate } from 'react-router';
 import TiltCard from '../components/TiltCard';
+import { DEMO_MODE } from '../demo';
+
+// Fictional sample results shown in demo mode (same shape as the API response).
+const SAMPLE_ANALYSIS = {
+  match_score: 85,
+  resume_skills: ['React', 'TypeScript', 'UI/UX Design'],
+  missing_skills: ['Node.js', 'System Design'],
+  recommendations: [{ skill: 'Node.js', course: 'Node.js Microservices', priority: 'High' }],
+};
 
 const ResumeUpload = () => {
   const navigate = useNavigate();
@@ -29,6 +38,16 @@ const ResumeUpload = () => {
   const handleUpload = async () => {
     if (!file) return;
     setIsUploading(true);
+
+    if (DEMO_MODE) {
+      // Public demo: nothing is uploaded. Show the bundled sample analysis.
+      setTimeout(() => {
+        localStorage.setItem('skillbridge_analysis', JSON.stringify(SAMPLE_ANALYSIS));
+        setIsAnalyzed(true);
+        setIsUploading(false);
+      }, 1500);
+      return;
+    }
 
     try {
       const formData = new FormData();
@@ -111,12 +130,23 @@ const ResumeUpload = () => {
                 <FileUp className="w-10 h-10 text-blue-500" />
               </div>
               <h3 className="text-lg font-bold text-slate-100">Drag & Drop Resume</h3>
-              <p className="text-sm text-slate-400 mt-2 mb-8">PDF, DOCX supported. Max 10MB.</p>
+              <p className="text-sm text-slate-400 mt-2 mb-8">
+                {DEMO_MODE ? 'Demo mode: files stay in your browser and are not uploaded.' : 'PDF, DOCX supported. Max 10MB.'}
+              </p>
               
               <label className="px-6 py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-500 transition-all shadow-lg shadow-blue-600/20 hover:shadow-blue-600/40 hover:-translate-y-0.5 cursor-pointer inline-flex items-center gap-2">
                 <input ref={fileInputRef} type="file" className="hidden" onChange={handleFileChange} accept=".pdf,.doc,.docx" />
                 Browse Files
               </label>
+              {DEMO_MODE && (
+                <button
+                  type="button"
+                  onClick={() => setFile(new File(['Sample résumé for the SkillBridge demo'], 'sample-resume-jordan-lee.pdf', { type: 'application/pdf' }))}
+                  className="mt-4 block mx-auto text-sm font-semibold text-blue-400 hover:text-blue-300 hover:underline"
+                >
+                  Use a sample résumé (fictional)
+                </button>
+              )}
             </div>
           ) : isUploading ? (
             <motion.div 
@@ -142,8 +172,12 @@ const ResumeUpload = () => {
               >
                 <CheckCircle2 className="w-10 h-10 text-emerald-400" />
               </motion.div>
-              <h3 className="text-lg font-bold text-slate-100">Analysis Complete!</h3>
-              <p className="text-sm text-slate-400 mt-2 mb-8">Your resume has been successfully processed.</p>
+              <h3 className="text-lg font-bold text-slate-100">{DEMO_MODE ? 'Sample analysis ready' : 'Analysis Complete!'}</h3>
+              <p className="text-sm text-slate-400 mt-2 mb-8">
+                {DEMO_MODE
+                  ? 'Demo mode: your file was not uploaded or read. These are sample results.'
+                  : 'Your resume has been successfully processed.'}
+              </p>
               <div className="flex gap-4 justify-center">
                 <button 
                   onClick={() => setIsAnalyzed(false)}

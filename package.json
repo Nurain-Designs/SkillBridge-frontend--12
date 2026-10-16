@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "build:pages": "VITE_DEMO_MODE=true VITE_PAGES_BASE=/SkillBridge-frontend--12/ vite build --base=/SkillBridge-frontend--12/ && node scripts/pages-routes.mjs /dashboard /resume-upload /skill-analysis /courses /roadmap /profile /settings  && node scripts/demo-notice.mjs \"R\u00e9sum\u00e9 analysis shows sample results; no file is uploaded.\""
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

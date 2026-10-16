@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useNavigate } from 'react-router';
+import { DEMO_MODE } from '../demo';
 
 /* ─── tiny reusable toggle ─── */
 const Toggle = ({ value, onChange }: { value: boolean; onChange: () => void }) => (
@@ -390,7 +391,7 @@ export default function Settings() {
           <p className="text-sm font-bold text-slate-200">AI Backend Status</p>
           <p className="text-xs text-slate-500">Start <code className="text-amber-400">python api_server.py</code> to enable live AI analysis</p>
         </div>
-        <button onClick={() => { fetch('http://localhost:5000/api/health').then(() => showToast('✅ Backend connected!')).catch(() => showToast('❌ Backend offline — start api_server.py')); }}
+        <button onClick={() => { if (DEMO_MODE) { showToast('Demo mode — no AI backend is connected to this public demo'); return; } fetch('http://localhost:5000/api/health').then(() => showToast('✅ Backend connected!')).catch(() => showToast('❌ Backend offline — start api_server.py')); }}
           className="px-4 py-2 bg-slate-800 text-slate-300 rounded-xl text-xs font-bold border border-slate-700 hover:bg-slate-700 transition-all flex items-center gap-2">
           <Wifi className="w-3.5 h-3.5" /> Check Status
         </button>
